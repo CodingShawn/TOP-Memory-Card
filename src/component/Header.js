@@ -1,10 +1,16 @@
-import react from "react";
+import React from "react";
+import Score from "./Score"
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header>
+        <div>
       <h1>Memory Card Game</h1>
       <div>Try to click all 12 cards just once!</div>
+      </div>
+      <div>
+          <Score {...props}/>
+      </div>
     </header>
   );
 };
