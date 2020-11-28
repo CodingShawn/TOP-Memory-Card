@@ -7,7 +7,7 @@ import pubsub from "./pubsub";
 function App() {
   const [currentScore, setCurrentScore] = useState(0);
   const [finalScore, setFinalScore] = useState(0);
-  const [arrayOrder, setArrayOrder] = useState([...Array(10).keys()]);
+  const [arrayOrder, setArrayOrder] = useState([...Array(12).keys()]);
 
   let componentArray = [
     <Card updateScore={updateScore} dog="beagle" key="beagle" />,
@@ -38,15 +38,14 @@ function App() {
       dog="yorkshire-terrier"
       key="yorkshire-terrier"
     />,
-    <Card updateScore={updateScore} dog="golden-retriever" key="1" />,
-    <Card updateScore={updateScore} dog="golden-retriever" key="2" />,
-    <Card updateScore={updateScore} dog="golden-retriever" key="3" />,
-    <Card updateScore={updateScore} dog="golden-retriever" key="4" />,
+    <Card updateScore={updateScore} dog="border-collie" key="border-collie" />,
+    <Card updateScore={updateScore} dog="husky" key="husky" />,
+    <Card updateScore={updateScore} dog="shiba-inu" key="shiba-inu" />,
+    <Card updateScore={updateScore} dog="pomeranian" key="pomeranian" />,
   ];
 
   let displayArray = (
     <React.Fragment>
-      {console.log(arrayOrder)}
       {arrayOrder.map((order) => {
         return componentArray[order];
       })}
@@ -88,7 +87,7 @@ function App() {
   return (
     <div className="App">
       <Header currentScore={currentScore} finalScore={finalScore} />
-      {displayArray}
+      <div className="board">{displayArray}</div>
     </div>
   );
 }
