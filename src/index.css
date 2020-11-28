@@ -1,0 +1,75 @@
+.image {
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    border-radius: 5px;
+
+}
+
+.image-container {
+    padding-top: 100%;
+    position: relative;
+}
+
+.beagle {
+    background-image: url(./assets/Beagle.jpeg);
+}
+
+.dachshunds {
+    background-image: url(./assets/Dachshunds.jpeg);
+    background-position: 60% 40%;
+}
+
+.german-shepherd {
+    background-image: url(./assets/German-Shepherd.jpeg);
+}
+
+.golden-retriever {
+    background-image: url(./assets/Golden-Retriever.jpeg);
+}
+
+.labrador-retriever {
+    background-image: url(./assets/Labrador-Retriever.jpeg);
+    background-position: 40%;
+}
+
+.rottweiler {
+    background-image: url(./assets/Rottweiler.jpeg);
+    background-position: 50%;
+}
+
+.tricolor-maltese {
+    background-image: url(./assets/Tricolor-Maltese.jpeg);
+}
+
+.yorkshire-terrier {
+    background-image: url(./assets/Yorkshire-Terrier.jpeg);
+    background-position: right;
+}
+
+.border-collie {
+    background-image: url(./assets/Border-Collie.jpg);
+    background-position: center;
+}
+
+.pomeranian {
+    background-image: url(./assets/Pomeranian.jpg);
+    background-position: center;
+}
+
+.shiba-inu {
+    background-image: url(./assets/Shiba-Inu.jpg);
+    background-position: bottom;
+}
+
+.husky {
+    background-image: url(./assets/Husky.jpg);
+}
+
+.board { 
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
