@@ -7,7 +7,7 @@ const Score = (props) => {
                 Current Score: {currentScore}
             </p>
             <p>
-                Final Score: {finalScore}
+                High Score: {finalScore}
             </p>
         </div>
     )
