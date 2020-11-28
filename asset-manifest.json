@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ce75a49.chunk.css",
-    "main.js": "/static/js/main.c1267fc5.chunk.js",
-    "main.js.map": "/static/js/main.c1267fc5.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c40c7a72.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c40c7a72.js.map",
-    "static/js/2.4106a718.chunk.js": "/static/js/2.4106a718.chunk.js",
-    "static/js/2.4106a718.chunk.js.map": "/static/js/2.4106a718.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.5ce75a49.chunk.css.map": "/static/css/main.5ce75a49.chunk.css.map",
-    "static/js/2.4106a718.chunk.js.LICENSE.txt": "/static/js/2.4106a718.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/Yorkshire-Terrier.4af48736.jpeg"
+    "main.css": "/TOP-Memory-Card/static/css/main.dd41457e.chunk.css",
+    "main.js": "/TOP-Memory-Card/static/js/main.c1267fc5.chunk.js",
+    "main.js.map": "/TOP-Memory-Card/static/js/main.c1267fc5.chunk.js.map",
+    "runtime-main.js": "/TOP-Memory-Card/static/js/runtime-main.ef671c69.js",
+    "runtime-main.js.map": "/TOP-Memory-Card/static/js/runtime-main.ef671c69.js.map",
+    "static/js/2.4106a718.chunk.js": "/TOP-Memory-Card/static/js/2.4106a718.chunk.js",
+    "static/js/2.4106a718.chunk.js.map": "/TOP-Memory-Card/static/js/2.4106a718.chunk.js.map",
+    "index.html": "/TOP-Memory-Card/index.html",
+    "static/css/main.dd41457e.chunk.css.map": "/TOP-Memory-Card/static/css/main.dd41457e.chunk.css.map",
+    "static/js/2.4106a718.chunk.js.LICENSE.txt": "/TOP-Memory-Card/static/js/2.4106a718.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/TOP-Memory-Card/static/media/Yorkshire-Terrier.4af48736.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c40c7a72.js",
+    "static/js/runtime-main.ef671c69.js",
     "static/js/2.4106a718.chunk.js",
-    "static/css/main.5ce75a49.chunk.css",
+    "static/css/main.dd41457e.chunk.css",
     "static/js/main.c1267fc5.chunk.js"
   ]
 }
