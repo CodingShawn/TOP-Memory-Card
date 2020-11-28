@@ -7,7 +7,6 @@ let Card = (props) => {
   let { updateScore, dog } = props;
 
   function resetClickStatus() {
-    console.log("reset click");
     setIfClicked(false);
   }
 
@@ -16,19 +15,21 @@ let Card = (props) => {
 
     return function cleanUp() {
       pubsub.unsubscribe("resetGame", resetClickStatus);
-    }
+    };
   });
 
   return (
-    <div
-      className={`image ${dog}`}
-      onClick={() => {
-        /* have to set if clicked to true first to call it before resetClickStatus (if it happens)*/
-        let tempIfClicked = ifClicked
-        setIfClicked(true);
-        updateScore(tempIfClicked);
-      }}
-    ></div>
+    <div className="image-container">
+      <div
+        className={`image ${dog}`}
+        onClick={() => {
+          /* have to set if clicked to true first to call it before resetClickStatus (if it happens)*/
+          let tempIfClicked = ifClicked;
+          setIfClicked(true);
+          updateScore(tempIfClicked);
+        }}
+      ></div>
+    </div>
   );
 };
 
